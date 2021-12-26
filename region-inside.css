@@ -1,0 +1,33 @@
+.region h2 ,h1 {
+  text-align: center;
+}
+.region h1{
+    font-size: 72px;
+    font-weight: 700;
+    color: #000;
+}
+.startups-num{
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #999;
+}
+main{
+    margin: 25px;
+
+}
+.flex-card-container{
+    display: flex;
+  
+}
+.flex-card-container div{
+    margin-top: 20px;
+    margin-right: 18px;
+}
+.span-tags a{
+    text-decoration: none;
+}
+.span-tags span{
+    padding-right: 12px;
+}

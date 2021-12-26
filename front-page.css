@@ -1,0 +1,60 @@
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 0.6s;
+    z-index: 1;
+    width: 100%;
+}
+header.sticky{
+    padding: 2px 10px;
+    background:whitesmoke ;
+
+}
+nav{
+    margin-top: 10px; 
+}
+.btn{
+    border-radius: 20px;
+    font-size: 12px;
+}
+.btn img{
+    height: 20px;
+}
+.d-flex{
+    width: 15px;
+}
+search-img{
+    height: 1px;
+}
+main{
+    margin: 25px;
+    padding-top: 20px;
+}
+.nav-container{
+    display: flex;
+}
+.nav-menu a{
+    text-decoration: none;
+    color: #777;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+.nav-menu  :hover{
+    color: #464646;
+}
+.flex-card-container{
+    display: flex;
+    z-index: -2;
+  
+}
+.flex-card-container div{
+    margin-top: 20px;
+    margin-right: 18px;
+}
+.span-tags a{
+    text-decoration: none;
+}
+.span-tags span{
+    padding-right: 12px;
+}

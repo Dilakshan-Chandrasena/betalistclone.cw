@@ -1,0 +1,83 @@
+
+@font-face {
+    font-family: 'Avenir Next';
+    src: url("http://www.yoursite.com/fonts/Avenir_Next.otf"); /* File to be stored at your site */
+ }
+
+body{
+    font-family: 'Avenir Next',Helvetica,Arial,sans-serif;
+}
+ .heading-container{
+    
+    text-align: center;
+    justify-content: center;
+}
+.header-regions{
+    font-size: 64px;
+    font-weight: 700;
+    color: #000;
+    margin: auto;
+}
+.header-browse{
+    font-size: 20px;
+    font-weight: 400;
+    color: #999;
+
+}
+/* sectiion */
+.country-container{
+    line-height: 1px;
+}
+.heading{
+    padding-left: 48px;
+    margin: auto;
+  
+}
+.heading a{
+    text-decoration: none;
+    color: #00ccd2;
+}
+.ul-list li {
+    padding-top: 5px;
+
+    list-style: none;
+}
+
+.btns{
+    border-radius: 3px;
+    background-color:#01b0b6;
+    border: #f2f5f5;
+    padding: 15px 32px;
+    margin-top: 3px;
+    margin-left: auto;
+}
+.btns a{
+    text-decoration: none;
+    color: white;
+}
+.ul-list li  :hover{
+    background-color: #3498a5;
+}
+@media screen and (max-width:600px){
+    .header-regions{
+        font-size: 32px;
+
+    }
+    .header-browse{
+        font-size: 10px;
+
+    
+    }
+    .btns{
+        padding: 7.5px 18px;
+        margin-left: auto;
+        margin-top: 10px;
+    
+    }
+    .heading{
+    
+        font-size: 12px;
+      
+    }
+
+}
